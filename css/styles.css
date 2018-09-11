@@ -1,0 +1,278 @@
+:root{
+	--brown-color:#673722;
+	--light-brown:#8D1002;
+}
+body{
+	overflow-x: hidden;
+}
+
+body hr{
+	width: 10%;
+	margin-left: 0px;
+	background-color: black;
+	height: 3px;
+	margin-top: 0;
+	border-radius: 2px 2px 2px 2px;
+}
+.jumbotron{
+
+	margin-bottom: 0 !important;
+}
+.footer p{
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.footer{
+	background-color: #808080;
+	color: white;
+	text-align: center;
+}
+}
+.columns{
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	padding: 20px;
+	margin: 1%;
+}
+}
+.nav-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.icons img{
+	
+	padding: 0.3rem;
+}
+.mybtn{
+	background-color: var(--brown-color);
+	color: white;
+	padding: 0.3rem 1.80rem;
+	border-radius: 0.3rem;
+}
+.wapper{
+	padding: 3rem 0 0 0;
+}
+.headline{
+	padding:3rem;
+	position: absolute;
+	background-color: white;
+	box-shadow: 5px 5px 5px #EFEFEF;
+	transform: translate(-25%,10%);
+}
+.headline .headline--heading{
+	color:var(--light-brown);
+}
+.headline .headline-button>a{
+	background-color: var(--light-brown);
+}
+.banner-image{
+	width: 100vw;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container-fluid{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	overflow: hidden !important;
+}
+.outer{
+	position: relative;
+}
+.inner{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,50%);
+}
+.inner >div{
+margin: 1rem;
+}
+
+.honey-image{
+	width: 100vw;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.Flower-image{
+	width: 100vw;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right 9rem;
+}
+.inner .banner--button{
+	padding-left: 0.6rem;
+}
+.greenhead{
+	background-color: #648D12;
+	padding:2rem;
+	text-align: right;
+	opacity: .8;
+	color: white;
+	top: 70%;
+	left: -5%;
+}
+
+.third-part{
+	width: 100%;
+	height: 400px;
+	max-height: 400px;
+	position: relative;
+}
+.third-part .part1{
+background-color: #1F1D1E;
+color: white;
+}
+.third-part .part2{
+	background-color: #D5DCDA;
+	color: black;
+}
+
+.third-part hr{
+	background-color: white;
+	width: 20%;
+	padding-right: 10px;
+}
+.third-part .div-heading{
+	position: absolute;
+	padding-right: 50px;
+	right: 0;
+	bottom: 0;
+
+}
+
+.details{
+	background-color: white;
+	box-shadow: 5px 5px 5px #EFEFEF;
+	padding:2rem;
+	top: 30%;
+	left: 100%;
+	font-size: 14px;
+}
+.rounded-circle{
+	border:solid #6D8B2C;
+}
+.testimonial-heading hr{
+	background-color: #6D8B2C;
+}
+.small-scren{
+	left: -25px;
+}
+.testimonial-heading{
+	color: #6D8B2C;
+	margin-left: 20%;
+	font-size: 24px;
+}
+.testimonial-name{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: -10px;
+
+}
+.testimonial-name h6{
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.testimonial-name span{
+	font-size: 0.77rem;
+	margin-top: -10px;
+}
+.block
+{
+	background-color: white;
+	position: absolute;
+	box-shadow: 5px 5px 5px #EFEFEF;
+	padding:2rem;
+	top: 50%;
+	left: 50%;
+	transform: translateY(30%);
+
+}
+.testimonial{
+	width: 100vw;
+	height: 500px;
+	background-repeat: repeat;
+
+}
+.backimage{
+	width: 100%;
+	height: 500px;
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+
+@media only screen and (max-width: 768px) {
+.icons img{
+	width: 20px;
+	padding: 0.2rem;
+}
+.headline {
+    padding: 0 0 0 3rem;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px #EFEFEF;
+    transform: translate(0%,0%);
+    margin-top: 5%;
+}
+.block
+{
+	top: 0;
+	left: 0;
+	transform: translateY(20%);
+	margin-left: 10%;
+}
+
+
+}
+@media only screen and (max-width: 640px) {
+	.headline{
+		transform: translateX(4%);
+	}
+}
+@media only screen and (max-width: 450px) {
+.icons img{
+	width: 20px;
+	padding: 0.2rem;
+}
+
+.nav-link {
+    display: block;
+    padding: .1rem .2rem;
+}
+.small-scren{
+	left: 0;
+}
+
+.block
+{
+	top: 0;
+	left: 0;
+
+}
+.testimonial-name{
+	margin-left: -21px;
+
+}
+.testimonial-name h6{
+	font-size: 0.7rem;
+}
+.testimonial-name span{
+	font-size: 0.77rem;
+	margin-top: -10px;
+}
+.headline{
+	transform: translate(2%,20%);
+}
+}
+
